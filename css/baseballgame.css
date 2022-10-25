@@ -1,0 +1,66 @@
+:root {
+  /* Color */
+  --white-color: #Fff;
+  --black-color: #140a00;
+  --text-color: rgba(65, 13, 13, 0.979);
+  --body-color: rgba(244, 250, 249, 0.944);
+  --btn-color: aliceblue;
+  --point-color: rgb(132, 235, 235);
+  --box-shadow-color: rgb(173, 234, 234);
+
+  /* Font Size */
+  --font-large: 28px;
+  --font-medium: 24px;
+  --font-small: 20px;
+  --font-micro: 16px;
+}
+
+body {
+  background-color: var(--body-color);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+hr {
+  border: 2px solid var(--point-color);
+}
+
+div {
+  padding: 10px;
+}
+
+.finish {
+  display: none;
+  font-size: var(--font-large);
+  font-style: italic;
+  background-color: var(--point-color);
+  border-radius: 10px;
+}
+
+#answer {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2px;
+  background-color: var(--point-color);
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--btn-color);
+  border: 1px solid var(--point-color);
+}
+
+#result {
+  font-size: var(--font-medium);
+}

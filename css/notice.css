@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: var(--color-dark);
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  margin: 5px;
+  border: 3px solid lightgray;
+}
+
+.notice {
+  display: none;
+}
+
+p {
+  color: var(--color-dark);
+  position: relative;
+  list-style: none;
+  margin: 12px;
+  padding: 12px;
+  border: 1px solid var(--color-dark);
+  border-radius: 5px;
+}
+
+.close {
+  cursor: pointer;
+  border: 2px solid transparent;
+  position: absolute;
+  right: 8px;
+  transition: 0.5s;
+}
+
+.close:hover {
+  background-color: rgb(195, 242, 244);
+  border: 2px solid rgb(195, 242, 244);
+  border-radius: 4px;
+}
