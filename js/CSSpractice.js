@@ -5,7 +5,6 @@ prevBtn.onclick = () => {
   history.back();
 }
 
-// snow - 다른 코드와 함께 작동하지 않음
 function createSnow() {
   const el = document.createElement('div');
   el.classList.add('snow');
